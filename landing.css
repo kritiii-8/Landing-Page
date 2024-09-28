@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 251, 218);
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.header{
+    background-color: rgb(255, 251, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    display: flex;
+    flex: 2;
+
+}
+
+.logo i{
+    font-size: 35px;
+    color: rgb(14, 36, 51);
+}
+
+
+
+.home-header{
+    display: flex;
+    color: white;
+   flex: 2;
+    
+
+}
+
+
+
+.home-header p{
+
+    color: gray;
+    width: 90px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding-right: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.mount{
+    color: rgb(14, 36, 51);
+    font-weight: bolder;
+    font-size: 25px;
+    width: 100px;
+    padding-left: 10px;
+
+
+    
+}
+
+.btn{
+    background-color: rgb(0, 142, 231);
+    color: rgb(250, 247, 247);
+    border: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 80px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.15s;
+
+}
+
+.btn:hover{
+   
+    background-color: rgb(43, 174, 255);
+}
+
+.flex1{
+   
+    height: 500px;
+    display: flex;
+  
+    
+}
+
+.left-section{
+    margin-left: 70px;
+    padding-top: 60px;
+    flex: 1;
+
+}
+
+
+
+.left-section p:nth-child(1){
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(14, 36, 51);
+}
+
+.left-section p:nth-child(2){
+width: 500px;
+margin-top: 25px;
+    font-size: 14px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.book-btn{
+    
+    background-color: rgb(39, 172, 255);
+    color: white;
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+   margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: bold;
+   
+}
+
+.book-btn:hover{
+   
+    background-color: rgb(32, 169, 255);
+}
+
+.right-section{
+    display: flex;
+
+align-items: center;
+  flex: 1;
+}
+.img-1{
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+
+    height: 400px;
+    width: 320px;
+    border-radius: 200px;
+    border: solid;
+    object-fit: cover;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+    margin-left: 70px;
+    
+}
+.absolute-img{
+    position: relative;
+}
+.img-2{
+    height: 350px;
+    width: 270px;
+    border-radius: 200px;
+    border: solid;
+    object-fit: cover;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 7px;
+    position: absolute;
+    z-index: 1;
+bottom: -60px;
+left: -70px;
+
+}
+.footer{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+
+height: 200px;
+}
+.social-media{
+    display: flex;
+    color: gray;
+    padding-right: 100px;
+}
+.social-media p{ 
+    display: flex;
+    color: gray;
+    padding-right: 15px;
+}
+.div-img{
+    display: flex;
+
+}
+.div-img img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+.div-para{
+    padding-left: 15px;
+    line-height: 5px;
+    padding-top: 5px;
+}
+.div-para p{
+color: rgb(104, 104, 104);
+}
+input{
+    border: none;
+    padding: 18px;
+    padding-right: 40px;
+    border-radius: 4px;
+
+}
+input::placeholder{
+    font-weight: 700;
+    color: rgb(162, 162, 162);
+}
+.fa-solid.fa-circle-check{
+    color: rgb(3, 188, 3);
+    font-size: 25px;
+    padding-top: 20px;
+  
+    
+}
+.last-para
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.flex2{
+    display: flex;
+
+}
+
+.fa-solid.fa-plane{
+    color: rgb(3, 188, 3);
+}
